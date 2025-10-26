@@ -22,18 +22,6 @@ The goal of this exercise is to practice **object constructors, prototypes, and 
 
 ---
 
-## 🧩 Project Structure
-
-Odin-library-app/
-│
-├── /fonts              # Fonts directory
-├── index.html          # Main HTML file
-├── style.css           # Styling and layout
-├── script.js           # Core JavaScript logic
-└── README.md           # Project documentation
-
----
-
 ## 🧰 Built With
 
 - **HTML5** – semantic markup  
