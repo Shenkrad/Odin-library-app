@@ -13,11 +13,11 @@ form.addEventListener("submit", (e) => {
     data.book_read = !!data.book_read;
     createBookCard(addBookToLibrary(data.book_title, data.book_author, data.book_pages, data.book_read));
     
+    form.reset();
     dialog.close();
 });
 
 btnCancelNewBook.addEventListener("click", (e) => {
-    e.preventDefault();
     dialog.close();
 });
 
